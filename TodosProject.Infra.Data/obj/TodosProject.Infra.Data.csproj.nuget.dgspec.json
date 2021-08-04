@@ -1,0 +1,298 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\joel.junior\\source\\repos\\todos-api\\TodosProject.Infra.Data\\TodosProject.Infra.Data.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\joel.junior\\source\\repos\\todos-api\\TodosProject.Application\\TodosProject.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\joel.junior\\source\\repos\\todos-api\\TodosProject.Application\\TodosProject.Application.csproj",
+        "projectName": "TodosProject.Application",
+        "projectPath": "C:\\Users\\joel.junior\\source\\repos\\todos-api\\TodosProject.Application\\TodosProject.Application.csproj",
+        "packagesPath": "C:\\Users\\joel.junior\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joel.junior\\source\\repos\\todos-api\\TodosProject.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\joel.junior\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\joel.junior\\source\\repos\\todos-api\\TodosProject.Domain\\TodosProject.Domain.csproj": {
+                "projectPath": "C:\\Users\\joel.junior\\source\\repos\\todos-api\\TodosProject.Domain\\TodosProject.Domain.csproj"
+              },
+              "C:\\Users\\joel.junior\\source\\repos\\todos-api\\TodosProject.Infra.CrossCutting\\TodosProject.Infra.CrossCutting.csproj": {
+                "projectPath": "C:\\Users\\joel.junior\\source\\repos\\todos-api\\TodosProject.Infra.CrossCutting\\TodosProject.Infra.CrossCutting.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[2.11.1, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.11.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\joel.junior\\source\\repos\\todos-api\\TodosProject.Domain\\TodosProject.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\joel.junior\\source\\repos\\todos-api\\TodosProject.Domain\\TodosProject.Domain.csproj",
+        "projectName": "TodosProject.Domain",
+        "projectPath": "C:\\Users\\joel.junior\\source\\repos\\todos-api\\TodosProject.Domain\\TodosProject.Domain.csproj",
+        "packagesPath": "C:\\Users\\joel.junior\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joel.junior\\source\\repos\\todos-api\\TodosProject.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\joel.junior\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\joel.junior\\source\\repos\\todos-api\\TodosProject.Infra.CrossCutting\\TodosProject.Infra.CrossCutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\joel.junior\\source\\repos\\todos-api\\TodosProject.Infra.CrossCutting\\TodosProject.Infra.CrossCutting.csproj",
+        "projectName": "TodosProject.Infra.CrossCutting",
+        "projectPath": "C:\\Users\\joel.junior\\source\\repos\\todos-api\\TodosProject.Infra.CrossCutting\\TodosProject.Infra.CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\joel.junior\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joel.junior\\source\\repos\\todos-api\\TodosProject.Infra.CrossCutting\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\joel.junior\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\joel.junior\\source\\repos\\todos-api\\TodosProject.Domain\\TodosProject.Domain.csproj": {
+                "projectPath": "C:\\Users\\joel.junior\\source\\repos\\todos-api\\TodosProject.Domain\\TodosProject.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Cryptography.KeyDerivation": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\joel.junior\\source\\repos\\todos-api\\TodosProject.Infra.Data\\TodosProject.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\joel.junior\\source\\repos\\todos-api\\TodosProject.Infra.Data\\TodosProject.Infra.Data.csproj",
+        "projectName": "TodosProject.Infra.Data",
+        "projectPath": "C:\\Users\\joel.junior\\source\\repos\\todos-api\\TodosProject.Infra.Data\\TodosProject.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\joel.junior\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joel.junior\\source\\repos\\todos-api\\TodosProject.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\joel.junior\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\joel.junior\\source\\repos\\todos-api\\TodosProject.Application\\TodosProject.Application.csproj": {
+                "projectPath": "C:\\Users\\joel.junior\\source\\repos\\todos-api\\TodosProject.Application\\TodosProject.Application.csproj"
+              },
+              "C:\\Users\\joel.junior\\source\\repos\\todos-api\\TodosProject.Domain\\TodosProject.Domain.csproj": {
+                "projectPath": "C:\\Users\\joel.junior\\source\\repos\\todos-api\\TodosProject.Domain\\TodosProject.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
